@@ -1,11 +1,11 @@
 # Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks
 This project was realized by 
 
-**Juan Camilo Higuera Calderon** 
+**Juan C Higuera C** 
 
-**Francisco Javier Ordoñez Araujo** 
+**Francisco J Ordoñez A** 
 
-**Kevin Nicolas Ramos Guasca**
+**Kevin N Ramos G**
 
 This project was presented for the course **Statistical Mechanics** of the National University of Colombia.
 

@@ -37,4 +37,26 @@ Scale-free distribution degree and small-world propertie are the most frecuently
 
 **Figure 1. Average adjacency matrix calculated numerically**
 
-**3.** Was established twelve functions, that contains all the code neccesary to reproduce this work. This functions are 
+**3.** Was established twelve functions, that contains all the code neccesary to reproduce this work. This functions are **pareto-cumm-probabilities**, **Degree-Sec-Generator**, **maxent-generator**, **graph-entropys**, **remove-hubs-load**, **edge-remove-hub-load**, **remove-aleatory**, **edge-remove-aleatory**, **hub-cascade-failure**, **edge-hub-cascade-failure**, **aleatory-cascade-failure** y **edge-aleatory-cascade-failure**. Its possible found all this functions in the folder Functions in this repository.
+
+**4.** Using the generator of maximum entropy networks, we generate 300 networks, obtain their adjacency matrix and averaged them.
+
+![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/109ad1e702f315d609c2efa9462cc11b620f33ae/Images/Simulated%20adjacency%20matrix.PNG)
+
+**Figure 2. Average adjacency matrix obtained from the generator of maximum entropy networks. The colorbar are proportional to the probability of two nodes are connected**
+
+If we compare the numerically and simulated mean adjacency matrix obtain for a row of this matrices:
+
+![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/109ad1e702f315d609c2efa9462cc11b620f33ae/Images/difference%20row.PNG)
+
+**Figure 3. 90 row of the simulated and numerically adjacency matrices.**
+
+and the difference between the two matrix:
+
+![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/109ad1e702f315d609c2efa9462cc11b620f33ae/Images/difference.PNG)
+
+**Figure 4. Differente between de numercally and simulated mean adjacency matrix**
+
+**5.**
+
+

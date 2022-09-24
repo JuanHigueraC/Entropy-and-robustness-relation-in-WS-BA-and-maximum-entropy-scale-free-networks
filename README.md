@@ -29,21 +29,21 @@ Scale-free distribution degree and small-world propertie are the most frecuently
 
 ## Results
 
-### 1
+### 1.
 
 Using some statistical mechanics tecniques and approximations, we obtain that the distribution of the degree in networks generated from the prefferential attacthment algorithm, has a exponent between 2 and 3. 
 
-### 2
+### 2.
 Using the Maximum Entropy Principle, the definition of Free Energy and derivatives of Free Energy, we calcule numerically the mean adjacency matrix of the ensemble of random networks with in average certain degree sequence extracted from a scale-free degree distribution. 
 
 ![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/31dd5ddea921bea2fb8f7d8360670945e02a242a/Images/numerical%20adjacency%20matrix.PNG)
 
 **Figure 1. Average adjacency matrix calculated numerically**
 
-### 3 
+### 3.
 Was established twelve functions, that contains all the code neccesary to reproduce this work. This functions are **pareto-cumm-probabilities**, **Degree-Sec-Generator**, **maxent-generator**, **graph-entropys**, **remove-hubs-load**, **edge-remove-hub-load**, **remove-aleatory**, **edge-remove-aleatory**, **hub-cascade-failure**, **edge-hub-cascade-failure**, **aleatory-cascade-failure** y **edge-aleatory-cascade-failure**. Its possible found all this functions in the folder Functions in this repository.
 
-### 4
+### 4.
 Using the generator of maximum entropy networks, we generate 300 networks, obtain their adjacency matrix and averaged them.
 
 ![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/109ad1e702f315d609c2efa9462cc11b620f33ae/Images/Simulated%20adjacency%20matrix.PNG)
@@ -62,7 +62,35 @@ and the difference between the two matrix:
 
 **Figure 4. Differente between de numercally and simulated mean adjacency matrix**
 
-### 5
+### 5.
+Finally we calculate the entropy of some topological node properties
+
+![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/f713e94762bfd34416885da9b0818dc663fe239a/Images/entropys.PNG)
+
+**Figure 5. Entropys of the distribution of differents nodal centrality measures.**
+
+and injuried the networks with four type of attacks. **Node hub attack**, **Edge hub attack**, **Node aleatory attack** and **Edge aleatory attactk**.
+The results its presented below:
+
+![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/f713e94762bfd34416885da9b0818dc663fe239a/Images/non%20random%20node%20attack.PNG)
+
+**Figure 6. Node hub attack**
+
+![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/f713e94762bfd34416885da9b0818dc663fe239a/Images/random%20node%20attack.PNG)
+
+**Figure 7. Node aleatory attack**
+
+![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/f713e94762bfd34416885da9b0818dc663fe239a/Images/non%20randmo%20edge%20attack.PNG)
+
+**Figure 8. Edge hub attack**
+
+![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/f713e94762bfd34416885da9b0818dc663fe239a/Images/random%20edge%20attack.PNG)
+
+**Figure 9. Edge aleatory attack**
+
+## Conclusions
+
+
 
 
 

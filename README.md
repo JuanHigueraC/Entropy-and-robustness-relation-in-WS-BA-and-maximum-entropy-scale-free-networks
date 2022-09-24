@@ -29,17 +29,22 @@ Scale-free distribution degree and small-world propertie are the most frecuently
 
 ## Results
 
-**1.** Using some statistical mechanics tecniques and approximations, we obtain that the distribution of the degree in networks generated from the prefferential attacthment algorithm, has a exponent between 2 and 3. 
+### 1
 
-**2.** Using the Maximum Entropy Principle, the definition of Free Energy and derivatives of Free Energy, we calcule numerically the mean adjacency matrix of the ensemble of random networks with in average certain degree sequence extracted from a scale-free degree distribution. 
+Using some statistical mechanics tecniques and approximations, we obtain that the distribution of the degree in networks generated from the prefferential attacthment algorithm, has a exponent between 2 and 3. 
+
+### 2
+Using the Maximum Entropy Principle, the definition of Free Energy and derivatives of Free Energy, we calcule numerically the mean adjacency matrix of the ensemble of random networks with in average certain degree sequence extracted from a scale-free degree distribution. 
 
 ![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/31dd5ddea921bea2fb8f7d8360670945e02a242a/Images/numerical%20adjacency%20matrix.PNG)
 
 **Figure 1. Average adjacency matrix calculated numerically**
 
-**3.** Was established twelve functions, that contains all the code neccesary to reproduce this work. This functions are **pareto-cumm-probabilities**, **Degree-Sec-Generator**, **maxent-generator**, **graph-entropys**, **remove-hubs-load**, **edge-remove-hub-load**, **remove-aleatory**, **edge-remove-aleatory**, **hub-cascade-failure**, **edge-hub-cascade-failure**, **aleatory-cascade-failure** y **edge-aleatory-cascade-failure**. Its possible found all this functions in the folder Functions in this repository.
+### 3 
+Was established twelve functions, that contains all the code neccesary to reproduce this work. This functions are **pareto-cumm-probabilities**, **Degree-Sec-Generator**, **maxent-generator**, **graph-entropys**, **remove-hubs-load**, **edge-remove-hub-load**, **remove-aleatory**, **edge-remove-aleatory**, **hub-cascade-failure**, **edge-hub-cascade-failure**, **aleatory-cascade-failure** y **edge-aleatory-cascade-failure**. Its possible found all this functions in the folder Functions in this repository.
 
-**4.** Using the generator of maximum entropy networks, we generate 300 networks, obtain their adjacency matrix and averaged them.
+### 4
+Using the generator of maximum entropy networks, we generate 300 networks, obtain their adjacency matrix and averaged them.
 
 ![image](https://github.com/JuanHigueraC/Entropy-and-robustness-relation-in-WS-BA-and-maximum-entropy-scale-free-networks/blob/109ad1e702f315d609c2efa9462cc11b620f33ae/Images/Simulated%20adjacency%20matrix.PNG)
 
@@ -57,6 +62,7 @@ and the difference between the two matrix:
 
 **Figure 4. Differente between de numercally and simulated mean adjacency matrix**
 
-**5.**
+### 5
+
 
 

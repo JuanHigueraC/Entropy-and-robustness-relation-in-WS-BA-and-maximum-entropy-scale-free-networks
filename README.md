@@ -13,7 +13,7 @@ Based on the biases found in the analytical analysis of the Preferential Attacth
 
 ## ¿Why is this important?
 
-Scale-free distribution degree and small-world propertie are the most frecuently network properties found in nature, for this reason with Erdos-Renyi networks have been the most studyed type of networks. In the study of scale-free networks the barabasi-albert algorithm have been a standart, but ¿this algorithm generates networks that really are representative of the ensemble of scale-free networks? Some previous results (see **[1]**) suggest that this is not the case. In order to avoid this problem in a general way, its posible to use the Maximum Entropy Principle (MaxEnt), which allow us to generate ensembles of random networks that fullfill some restrictions, in particular the restriction of have a scale-free distribution. 
+Scale-free degree distribution and small-world propertie are the most frecuently network properties found in nature, for this reason with Erdos-Renyi networks have been the most studyed type of networks. In the study of scale-free networks the barabasi-albert algorithm have been a standart, but ¿this algorithm generates networks that really are representative of the ensemble of scale-free networks? Some previous results (see **[1]**) suggest that this is not the case. In order to avoid this problem in a general way, its posible to use the Maximum Entropy Principle (MaxEnt), which allow us to generate ensembles of random networks that fullfill some restrictions, in particular the restriction of have a scale-free distribution. 
 
 ## Particular objetives of this work
 

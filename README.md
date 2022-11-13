@@ -31,7 +31,7 @@ The scale-free degree distribution and the small world characteristic are the mo
 
 ### 1.
 
-Using some statistical mechanics tecniques and approximations, we obtain that the distribution of the degree in networks generated from the prefferential attacthment algorithm, has a exponent between 2 and 3. 
+Using some statistical mechanics tecniques and approximations, we obtain that the distribution of the degree in networks generated from the prefferential attacthment algorithm, has a exponent between 2 and 3, this being a bias of the algorithm to sample the ensemble of scale-free networks.
 
 ### 2.
 Using the Maximum Entropy Principle, the definition of Free Energy and derivatives of Free Energy, we calcule numerically the mean adjacency matrix of the ensemble of random networks with in average certain degree sequence extracted from a scale-free degree distribution. 
@@ -41,7 +41,7 @@ Using the Maximum Entropy Principle, the definition of Free Energy and derivativ
 **Figure 1. Average adjacency matrix calculated numerically**
 
 ### 3.
-Was established twelve functions, that contains all the code neccesary to reproduce this work. This functions are **pareto-cumm-probabilities**, **Degree-Sec-Generator**, **maxent-generator**, **graph-entropys**, **remove-hubs-load**, **edge-remove-hub-load**, **remove-aleatory**, **edge-remove-aleatory**, **hub-cascade-failure**, **edge-hub-cascade-failure**, **aleatory-cascade-failure** y **edge-aleatory-cascade-failure**. Its possible found all this functions in the folder Functions in this repository.
+Was established twelve functions, that contains all the code neccesary to reproduce this work. This functions are **pareto-cumm-probabilities**, **Degree-Sec-Generator**, **maxent-generator**, **graph-entropys**, **remove-hubs-load**, **edge-remove-hub-load**, **remove-aleatory**, **edge-remove-aleatory**, **hub-cascade-failure**, **edge-hub-cascade-failure**, **aleatory-cascade-failure** and **edge-aleatory-cascade-failure**. Its possible found all this functions in the folder Functions in this repository.
 
 ### 4.
 Using the generator of maximum entropy networks, we generate 300 networks, obtain their adjacency matrix and averaged them.
